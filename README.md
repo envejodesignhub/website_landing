@@ -318,7 +318,7 @@ This project is created for Envejo Creative Design Hub.
 ## 👥 Contact
 
 For questions about this project:
-- Email: hello@envejo.in
+- Email: envejo.in@gmail.com
 - Location: Guduvancherry, Chennai, Tamil Nadu
 
 ---
