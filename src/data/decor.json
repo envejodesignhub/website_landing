@@ -1,0 +1,65 @@
+[
+  {
+    "icon": "🏫",
+    "name": "Classroom Makeover",
+    "desc": "Complete themed transformation — wall murals, display boards, corner elements and educational décor.",
+    "price": "₹25,000+",
+    "tag": "Most Popular"
+  },
+  {
+    "icon": "🧸",
+    "name": "Kindergarten Theme Décor",
+    "desc": "10 premium themes — Jungle Explorer, Space, Ocean, Brain Gym, Rainbow and more. Fun, vibrant and educational.",
+    "price": "₹18,000+",
+    "tag": "Schools Love This"
+  },
+  {
+    "icon": "🍽️",
+    "name": "Restaurant Interior Branding",
+    "desc": "Menu design, wall graphics, table décor, chalkboards, neon-effect prints and complete restaurant branding.",
+    "price": "₹12,000+",
+    "tag": "For Restaurants"
+  },
+  {
+    "icon": "🏢",
+    "name": "Office Branding & Signage",
+    "desc": "Reception board, wall logo, motivational quotes, directional signage and environmental branding.",
+    "price": "₹8,000+",
+    "tag": "For Offices"
+  },
+  {
+    "icon": "🏥",
+    "name": "Clinic & Medical Décor",
+    "desc": "Clean, professional décor for clinics — signage, patient education displays, waiting area graphics.",
+    "price": "₹6,000+",
+    "tag": "Healthcare"
+  },
+  {
+    "icon": "🛍️",
+    "name": "Retail Shop Décor",
+    "desc": "Window displays, product highlight graphics, price tag design, seasonal décor and shop branding.",
+    "price": "₹7,500+",
+    "tag": "Retail"
+  },
+  {
+    "icon": "💪",
+    "name": "Gym & Fitness Studio",
+    "desc": "Motivational wall quotes, equipment labels, class schedule boards, logo walls and locker signage.",
+    "price": "₹10,000+",
+    "tag": "Fitness"
+  },
+  {
+    "icon": "🎉",
+    "name": "Event & Party Décor",
+    "desc": "Custom event backdrops, photo booth props, table centrepieces, directional boards and stage dressing.",
+    "price": "₹5,000+",
+    "tag": "Events"
+  },
+  {
+    "icon": "🏠",
+    "name": "Home Décor & Personalisation",
+    "desc": "Custom wall quotes, name signs, photo walls, baby room décor and personalised home elements.",
+    "price": "₹1,500+",
+    "tag": "Personal"
+  }
+]

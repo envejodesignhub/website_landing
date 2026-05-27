@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Essential",
+    "price": "₹3,999",
+    "orig": "₹6,999",
+    "desc": "Perfect for solopreneurs and freelancers",
+    "features": [
+      "2 logo concepts",
+      "1 revision round",
+      "Business card design",
+      "Brand colour palette",
+      "Font recommendation"
+    ],
+    "popular": false
+  },
+  {
+    "name": "Professional",
+    "price": "₹9,999",
+    "orig": "₹14,999",
+    "desc": "Complete brand identity for growing businesses",
+    "features": [
+      "4 logo concepts",
+      "3 revision rounds",
+      "Essential stationery design",
+      "Brand guidelines PDF",
+      "Social media kit",
+      "1-month after support"
+    ],
+    "popular": true
+  },
+  {
+    "name": "Enterprise",
+    "price": "₹49,999",
+    "orig": "₹65,000",
+    "desc": "Premium branding for established businesses",
+    "features": [
+      "Unlimited logo concepts",
+      "Unlimited revisions",
+      "Full stationery suite",
+      "In-depth brand manual",
+      "Website home page",
+      "Social media templates (30)",
+      "3-month after support"
+    ],
+    "popular": false
+  }
+]

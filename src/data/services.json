@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "cat": "branding",
+    "icon": "🎨",
+    "title": "Brand Identity & Logo Design",
+    "desc": "Full brand identity from concept to completion. Logo, colour palette, typography, brand guidelines and brand bible.",
+    "tags": ["Logo Design", "Brand Guidelines", "Visual Identity", "Stationery"],
+    "price": "₹3,999 onwards",
+    "iconBg": "#FDE8F4"
+  },
+  {
+    "id": 2,
+    "cat": "print",
+    "icon": "🖨️",
+    "title": "Digital Print Services",
+    "desc": "Business cards, brochures, flyers, banners, posters, letterheads, envelopes — any printed material, designed and printed.",
+    "tags": ["Business Cards", "Brochures", "Banners", "Posters"],
+    "price": "₹499 onwards",
+    "iconBg": "#EDE8FE"
+  },
+  {
+    "id": 3,
+    "cat": "digital",
+    "icon": "🌐",
+    "title": "Website Design & Development",
+    "desc": "Custom websites for businesses, schools, portfolios and e-commerce. Mobile-first, SEO-ready and delivered in 7–14 days.",
+    "tags": ["Website Design", "E-commerce", "Landing Pages", "SEO"],
+    "price": "₹4,999 onwards",
+    "iconBg": "#F0FDFA"
+  },
+  {
+    "id": 4,
+    "cat": "fabrication",
+    "icon": "✂️",
+    "title": "Laser Cutting & Fabrication",
+    "desc": "Precision laser cutting for signage, wall art, acrylic displays, product cutouts, décor elements and educational kits.",
+    "tags": ["Acrylic Cutting", "Signage", "Wall Art", "Custom Shapes"],
+    "price": "₹299 onwards",
+    "iconBg": "#FDE8F4"
+  },
+  {
+    "id": 5,
+    "cat": "digital",
+    "icon": "📱",
+    "title": "Social Media Design",
+    "desc": "Instagram posts, Reels covers, stories, profile setup, content calendars and full social media branding packages.",
+    "tags": ["Instagram", "Reels Covers", "Stories", "Content Calendar"],
+    "price": "₹1,499 onwards",
+    "iconBg": "#EDE8FE"
+  },
+  {
+    "id": 6,
+    "cat": "fabrication",
+    "icon": "🖼️",
+    "title": "Sublimation Printing",
+    "desc": "Mugs, T-shirts, mousepads, photo panels, hardboards, phone covers — full-colour sublimation on any surface.",
+    "tags": ["Mugs", "T-shirts", "Mousepads", "Photo Panels"],
+    "price": "₹199 onwards",
+    "iconBg": "#FDF6E3"
+  },
+  {
+    "id": 7,
+    "cat": "branding",
+    "icon": "📦",
+    "title": "Packaging Design",
+    "desc": "Custom packaging for products — boxes, pouches, labels, stickers, tissue paper prints and unboxing experiences.",
+    "tags": ["Box Design", "Labels", "Stickers", "Tissue Paper"],
+    "price": "₹1,999 onwards",
+    "iconBg": "#F0FDFA"
+  },
+  {
+    "id": 8,
+    "cat": "decor",
+    "icon": "🏫",
+    "title": "Classroom Makeover",
+    "desc": "Complete themed classroom transformations — wall murals, display boards, corner décor, labels and educational elements.",
+    "tags": ["Wall Murals", "Display Boards", "Themes", "Educational Décor"],
+    "price": "₹25,000 onwards",
+    "iconBg": "#FDE8F4"
+  },
+  {
+    "id": 9,
+    "cat": "branding",
+    "icon": "💡",
+    "title": "Marketing Collateral",
+    "desc": "Pitch decks, presentations, proposals, catalogues, lookbooks, annual reports and all business communication materials.",
+    "tags": ["Pitch Decks", "Catalogues", "Proposals", "Lookbooks"],
+    "price": "₹1,999 onwards",
+    "iconBg": "#EDE8FE"
+  },
+  {
+    "id": 10,
+    "cat": "fabrication",
+    "icon": "🏅",
+    "title": "Badge & Merchandise Making",
+    "desc": "Custom pinback badges, ID pins, keyrings, event merchandise, campaign pins and promotional items.",
+    "tags": ["Badges", "Keyrings", "Event Merch", "Promo Items"],
+    "price": "₹29 per piece",
+    "iconBg": "#FDE8F4"
+  },
+  {
+    "id": 11,
+    "cat": "decor",
+    "icon": "🏢",
+    "title": "Office & Shop Décor",
+    "desc": "Custom signage, wall graphics, reception boards, window décor, floor stickers and branded environmental design.",
+    "tags": ["Office Signage", "Window Décor", "Wall Graphics", "Branding"],
+    "price": "₹5,999 onwards",
+    "iconBg": "#FDF6E3"
+  },
+  {
+    "id": 12,
+    "cat": "digital",
+    "icon": "📧",
+    "title": "Email & WhatsApp Marketing",
+    "desc": "Branded email templates, WhatsApp broadcast content, newsletter design and digital campaign creatives.",
+    "tags": ["Email Templates", "WhatsApp Campaigns", "Newsletters", "Digital Ads"],
+    "price": "₹999 onwards",
+    "iconBg": "#EDE8FE"
+  },
+  {
+    "id": 13,
+    "cat": "fabrication",
+    "icon": "🔵",
+    "title": "3D Printing Services",
+    "desc": "Custom 3D printed models, product prototypes, educational kits, packaging inserts and display components.",
+    "tags": ["Prototypes", "Custom Models", "Educational Kits", "Display Parts"],
+    "price": "₹499 onwards",
+    "iconBg": "#F0FDFA"
+  },
+  {
+    "id": 14,
+    "cat": "branding",
+    "icon": "🎬",
+    "title": "Brand Video & Reels",
+    "desc": "Short brand videos, product showcases, Reels content and animated logo reveals for social media and marketing.",
+    "tags": ["Brand Videos", "Reels", "Animations", "Logo Reveal"],
+    "price": "₹2,999 onwards",
+    "iconBg": "#FDE8F4"
+  },
+  {
+    "id": 15,
+    "cat": "print",
+    "icon": "📋",
+    "title": "Event Print Materials",
+    "desc": "Wedding invitations, event programmes, stage backdrops, roll-up banners, standees and all event stationery.",
+    "tags": ["Invitations", "Backdrops", "Standees", "Event Stationery"],
+    "price": "₹799 onwards",
+    "iconBg": "#EDE8FE"
+  },
+  {
+    "id": 16,
+    "cat": "decor",
+    "icon": "🎉",
+    "title": "Event & Wedding Décor",
+    "desc": "Custom printed and laser-cut décor elements for weddings, corporate events, birthday parties and school functions.",
+    "tags": ["Wedding Décor", "Event Backdrops", "Custom Props", "Table Décor"],
+    "price": "₹8,999 onwards",
+    "iconBg": "#FDE8F4"
+  }
+]

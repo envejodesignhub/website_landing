@@ -1,0 +1,237 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  padding: 88px 0 72px;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.hero-blob1 {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  top: -200px;
+  right: -150px;
+  background: radial-gradient(circle, rgba(233, 30, 140, .08) 0%, transparent 70%);
+}
+
+.hero-blob2 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  bottom: -100px;
+  left: -100px;
+  background: radial-gradient(circle, rgba(123, 47, 247, .08) 0%, transparent 70%);
+}
+
+.hero-grid {
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.hero-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, var(--pink-l), var(--purple-l));
+  border: 1px solid var(--border);
+  border-radius: 30px;
+  padding: 7px 18px;
+  margin-bottom: 24px;
+}
+
+.hero-dot {
+  width: 7px;
+  height: 7px;
+  background: linear-gradient(135deg, var(--pink), var(--purple));
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.hero-headline {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(44px, 7vw, 86px);
+  font-weight: 900;
+  line-height: 1.03;
+  letter-spacing: -2px;
+  margin-bottom: 22px;
+}
+
+.hero-headline .grad {
+  background: linear-gradient(135deg, var(--pink), var(--purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-sub {
+  font-size: 19px;
+  color: var(--sec);
+  line-height: 1.8;
+  margin-bottom: 36px;
+}
+
+.hero-btns {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 44px;
+}
+
+.industries-section {
+  background: #fff;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.industries-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.industry-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1.5px solid var(--border);
+  border-radius: 30px;
+  padding: 8px 18px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--sec);
+  background: #fff;
+  transition: all .18s;
+  cursor: default;
+}
+
+.industry-chip:hover {
+  border-color: var(--purple);
+  color: var(--purple);
+  background: var(--purple-l);
+}
+
+.process-step {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  padding-bottom: 32px;
+  border-bottom: 1px dashed var(--border);
+  margin-bottom: 32px;
+}
+
+.process-step.last {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.process-num {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--pink), var(--purple));
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.process-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.process-desc {
+  font-size: 13.5px;
+  color: var(--sec);
+  line-height: 1.65;
+}
+
+.cta-box {
+  background: linear-gradient(135deg, var(--purple-d), var(--pink-d));
+  border-radius: 28px;
+  padding: 72px 56px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-box::before {
+  content: '';
+  position: absolute;
+  top: -30%;
+  right: -5%;
+  width: 500px;
+  height: 500px;
+  background: rgba(255, 255, 255, .04);
+  border-radius: 50%;
+}
+
+.cta-box::after {
+  content: '';
+  position: absolute;
+  bottom: -20%;
+  left: -5%;
+  width: 400px;
+  height: 400px;
+  background: rgba(255, 255, 255, .03);
+  border-radius: 50%;
+}
+
+.cta-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 44px;
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: 14px;
+  letter-spacing: -1px;
+}
+
+.cta-desc {
+  font-size: 16px;
+  color: rgba(255, 255, 255, .85);
+  margin-bottom: 36px;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.7;
+}
+
+.btn-white {
+  background: #fff;
+  color: var(--purple);
+}
+
+.btn-white:hover {
+  background: var(--purple-l);
+}
+
+.cta-secondary {
+  background: rgba(255, 255, 255, .15);
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, .35);
+}

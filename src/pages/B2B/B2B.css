@@ -1,0 +1,152 @@
+.b2b-hero {
+  background: linear-gradient(160deg, #1A0533, #2D0B5A);
+  padding: 88px 0;
+}
+
+.badge-white {
+  background: rgba(255, 255, 255, .2);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, .3);
+}
+
+.b2b-hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(36px, 4vw, 56px);
+  font-weight: 900;
+  color: #fff;
+  line-height: 1.08;
+  letter-spacing: -1.5px;
+  margin-bottom: 18px;
+}
+
+.b2b-hero-gradient {
+  background: linear-gradient(135deg, #FF9CE5, #C4A0FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.b2b-hero-desc {
+  font-size: 16px;
+  color: rgba(255, 255, 255, .75);
+  max-width: 580px;
+  line-height: 1.8;
+  margin-bottom: 44px;
+}
+
+.btn-pink {
+  background: linear-gradient(135deg, var(--pink), var(--pink-d));
+  color: #fff;
+  box-shadow: 0 5px 18px rgba(233, 30, 140, .35);
+}
+
+.btn-pink:hover {
+  box-shadow: 0 8px 28px rgba(233, 30, 140, .5);
+  transform: translateY(-1px);
+}
+
+.btn-purple {
+  background: linear-gradient(135deg, var(--purple), var(--purple-d));
+  color: #fff;
+  box-shadow: 0 5px 18px rgba(123, 47, 247, .35);
+}
+
+.btn-purple:hover {
+  box-shadow: 0 8px 28px rgba(123, 47, 247, .5);
+  transform: translateY(-1px);
+}
+
+.btn-full {
+  width: 100%;
+}
+
+.website-section {
+  background: linear-gradient(135deg, var(--purple-l), var(--pink-l));
+  border-radius: 24px;
+  padding: 48px;
+  margin-bottom: 32px;
+  border: 1.5px solid var(--border);
+}
+
+.plan-card {
+  background: #fff;
+  border-radius: 22px;
+  border: 1.5px solid var(--border);
+  padding: 32px 28px;
+  position: relative;
+  transition: all .22s;
+}
+
+.plan-card.popular {
+  border: 2.5px solid transparent;
+  background: linear-gradient(#fff, #fff) padding-box, linear-gradient(135deg, var(--pink), var(--purple)) border-box;
+  box-shadow: var(--shadow-m);
+}
+
+.plan-pop-badge {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, var(--pink), var(--purple));
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 18px;
+  border-radius: 20px;
+  white-space: nowrap;
+  letter-spacing: .5px;
+}
+
+.plan-name {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.plan-price {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  font-weight: 900;
+  color: var(--text);
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.plan-orig {
+  font-size: 13px;
+  color: var(--muted);
+  text-decoration: line-through;
+  margin-top: 2px;
+}
+
+.plan-desc {
+  font-size: 13px;
+  color: var(--sec);
+  margin-bottom: 20px;
+}
+
+.plan-features {
+  border-top: 1px solid var(--border);
+  padding-top: 16px;
+  margin: 16px 0;
+}
+
+.plan-feat {
+  display: flex;
+  gap: 9px;
+  align-items: flex-start;
+  margin-bottom: 9px;
+  font-size: 13px;
+}
+
+.plan-feat .tick {
+  color: var(--green);
+  font-size: 14px;
+  flex-shrink: 0;
+  margin-top: 1px;
+}

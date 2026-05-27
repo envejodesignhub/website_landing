@@ -1,0 +1,52 @@
+[
+  {
+    "e": "🌴",
+    "name": "Jungle Explorer",
+    "desc": "Wild animals, tropical leaves and adventure elements"
+  },
+  {
+    "e": "🚀",
+    "name": "Space Explorers",
+    "desc": "Planets, rockets, stars and astronauts"
+  },
+  {
+    "e": "🧠",
+    "name": "Brain Gym",
+    "desc": "Smart, colourful neural and scientific décor"
+  },
+  {
+    "e": "🌊",
+    "name": "Ocean Adventure",
+    "desc": "Sea creatures, waves and underwater world"
+  },
+  {
+    "e": "🌈",
+    "name": "Rainbow World",
+    "desc": "Bright, joyful primary colour theme"
+  },
+  {
+    "e": "🦁",
+    "name": "Safari Kingdom",
+    "desc": "African safari animals in warm tones"
+  },
+  {
+    "e": "⚗️",
+    "name": "Science Lab",
+    "desc": "Beakers, formulas and discovery theme"
+  },
+  {
+    "e": "📚",
+    "name": "Book World",
+    "desc": "Characters, stories and reading celebration"
+  },
+  {
+    "e": "🎨",
+    "name": "Art Studio",
+    "desc": "Colours, brushes and creative exploration"
+  },
+  {
+    "e": "🏡",
+    "name": "Little Town",
+    "desc": "Community helpers and neighbourhood theme"
+  }
+]

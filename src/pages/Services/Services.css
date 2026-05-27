@@ -1,0 +1,29 @@
+.filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.chip {
+  border: 1.5px solid var(--border);
+  background: #fff;
+  color: var(--sec);
+  border-radius: 30px;
+  padding: 7px 18px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.18s;
+}
+
+.chip:hover,
+.chip.active {
+  border-color: var(--purple);
+  background: var(--purple);
+  color: #fff;
+}
+
+.section-sm {
+  padding: 56px 0;
+}

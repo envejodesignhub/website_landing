@@ -1,0 +1,120 @@
+{
+  "site": {
+    "name": "Envejo",
+    "fullName": "Envejo Creative Design Hub",
+    "tagline": "Where Ideas Take Shape",
+    "email": "envejo.in@gmail.com",
+    "phone": "+91-90251-27488",
+    "location": "Guduvancherry, Chennai, Tamil Nadu",
+    "announcement": "✨ New: Business Startup Kits now available · Free consultation for first 20 clients this month ·"
+  },
+  "hero": {
+    "eyebrow": "We don't just create things. We create experiences!",
+    "headline": "Creative Solutions For Growing Businesses",
+    "subheadline": "We are a multidisciplinary creative space for Design, Fabrication, Print, Software Development, Digital Solutions and 3D printing. Our mission is to build innovative experiences, products and visual solutions with precision and purpose."
+  },
+  "industries": [
+    "🏫 Schools & Education",
+    "🍽️ Restaurants & Cafes",
+    "🏥 Healthcare & Clinics",
+    "💄 Beauty & Wellness",
+    "🛍️ Retail & E-commerce",
+    "🏢 Corporate & Startups",
+    "🎉 Events & Weddings",
+    "🧸 Kindergartens & Play Schools",
+    "🏨 Hotels & Hospitality",
+    "💪 Fitness & Sports",
+    "🎵 Music & Entertainment",
+    "& More"
+  ],
+  "whyEnvejo": [
+    {
+      "icon": "🏭",
+      "title": "In-house Fabrication",
+      "desc": "Laser cutter, 3D printer, Cricut, sublimation printer and badge maker. We make what we design.",
+      "bg": "#FDE8F4"
+    },
+    {
+      "icon": "⚡",
+      "title": "24–48 Hour Turnaround",
+      "desc": "Rush orders welcome. Standard print and digital orders delivered within 24 hours.",
+      "bg": "#EDE8FE"
+    },
+    {
+      "icon": "🎯",
+      "title": "End-to-End Solutions",
+      "desc": "From logo and brand identity to printed materials, décor, packaging and website — one partner for everything.",
+      "bg": "#FDF6E3"
+    },
+    {
+      "icon": "💰",
+      "title": "Chennai-Local Pricing",
+      "desc": "Premium quality at prices that work for local businesses, schools and entrepreneurs.",
+      "bg": "#F0FDFA"
+    }
+  ],
+  "processSteps": [
+    {
+      "num": 1,
+      "title": "Discovery Call",
+      "desc": "A free 30-minute consultation where we understand your business, goals, audience and vision. No charge, no commitment."
+    },
+    {
+      "num": 2,
+      "title": "Quote & Brief",
+      "desc": "We send a detailed quote within 4 hours. On approval, we collect 50% advance and create a detailed creative brief."
+    },
+    {
+      "num": 3,
+      "title": "Design & Create",
+      "desc": "Our team gets to work. You receive the first draft within the agreed timeline, with progress updates via WhatsApp."
+    },
+    {
+      "num": 4,
+      "title": "Revise & Refine",
+      "desc": "You review and give feedback. We revise until you're happy — your package's revision rounds are fully used."
+    },
+    {
+      "num": 5,
+      "title": "Deliver & Launch",
+      "desc": "Final files, printed materials or fabricated products delivered. Balance payment collected. Post-delivery support included."
+    }
+  ],
+  "footer": {
+    "description": "Design, fabrication, print, digital and education services — all under one roof in Guduvancherry, Chennai.",
+    "services": [
+      { "label": "Branding & Logo", "link": "/services" },
+      { "label": "Digital Print", "link": "/services" },
+      { "label": "Website Design", "link": "/services" },
+      { "label": "Fabrication", "link": "/services" },
+      { "label": "Social Media", "link": "/services" }
+    ],
+    "products": [
+      { "label": "Startup Kits", "link": "/" },
+      { "label": "Sublimation Products", "link": "/" },
+      { "label": "Acrylic Products", "link": "/" },
+      { "label": "Stickers & Labels", "link": "/" },
+      { "label": "Décor & Signage", "link": "/decor" }
+    ],
+    "company": [
+      { "label": "About Us", "link": "/" },
+      { "label": "Portfolio", "link": "/" },
+      { "label": "B2B Services", "link": "/b2b" },
+      { "label": "Pricing", "link": "/" }
+    ],
+    "getStarted": [
+      { "label": "Free Consultation", "link": "#consult" },
+      { "label": "Book a Project", "link": "#booking" },
+      { "label": "Free Demo", "link": "#demo" },
+      { "label": "Get a Quote", "link": "/" }
+    ],
+    "educationBrand": {
+      "heading": "Our Education Brand",
+      "name": "Dejo Labs",
+      "description": "STEM & Board Coaching →",
+      "link": "#"
+    },
+    "copyright": "© 2026 Envejo Creative Design Hub · All rights reserved",
+    "tagline": "Made with ❤️ in Guduvancherry, Chennai 🇮🇳"
+  }
+}

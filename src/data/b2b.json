@@ -1,0 +1,44 @@
+[
+  {
+    "icon": "🔄",
+    "name": "Monthly Branding Retainer",
+    "desc": "Dedicated creative support for growing businesses. Monthly design allocation, priority slots and consistent brand management.",
+    "price": "From ₹4,999/month",
+    "tag": "Most Popular"
+  },
+  {
+    "icon": "🏫",
+    "name": "School Annual Package",
+    "desc": "Full-year creative partnership for schools — newsletters, event materials, classroom décor, teacher day, sports day and more.",
+    "price": "From ₹24,999/year",
+    "tag": "For Schools"
+  },
+  {
+    "icon": "🍽️",
+    "name": "Restaurant Branding Suite",
+    "desc": "Menu design, packaging, social media, seasonal promotions, uniforms and complete restaurant creative management.",
+    "price": "From ₹14,999",
+    "tag": "One-time + Retainer"
+  },
+  {
+    "icon": "🏢",
+    "name": "Corporate Branding Partnership",
+    "desc": "Pitch decks, presentations, annual reports, event materials, office branding, merchandise and all corporate collateral.",
+    "price": "From ₹8,999/month",
+    "tag": "Enterprise"
+  },
+  {
+    "icon": "📱",
+    "name": "Social Media Management",
+    "desc": "Full Instagram and Facebook management — content creation, scheduling, engagement and monthly analytics report.",
+    "price": "From ₹3,999/month",
+    "tag": "Digital"
+  },
+  {
+    "icon": "🎓",
+    "name": "Educational Institution Package",
+    "desc": "STEM kits, classroom décor, teacher training materials, worksheets, certificates and student achievement collateral.",
+    "price": "Custom pricing",
+    "tag": "Education"
+  }
+]

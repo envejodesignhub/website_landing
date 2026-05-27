@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "cat": "sublimation",
+    "emoji": "☕",
+    "name": "Custom Printed Mug",
+    "desc": "11oz ceramic with your logo, design or message. Perfect gift or merchandise.",
+    "price": 299,
+    "orig": 399,
+    "iconBg": "#FDE8F4"
+  },
+  {
+    "id": 2,
+    "cat": "sublimation",
+    "emoji": "👕",
+    "name": "Printed T-Shirt",
+    "desc": "Full sublimation print on polyester. Vibrant colours that never fade.",
+    "price": 399,
+    "orig": 549,
+    "iconBg": "#EDE8FE"
+  },
+  {
+    "id": 3,
+    "cat": "sublimation",
+    "emoji": "🖱️",
+    "name": "Custom Mousepad",
+    "desc": "Full-print A4 / A3 mousepad. Premium rubber base. Anti-slip.",
+    "price": 249,
+    "orig": 349,
+    "iconBg": "#F0FDFA"
+  },
+  {
+    "id": 4,
+    "cat": "sublimation",
+    "emoji": "🖼️",
+    "name": "Photo Panel Print",
+    "desc": "HD print on hardboard. Ready to hang. Perfect for portraits and brand walls.",
+    "price": 499,
+    "orig": 699,
+    "iconBg": "#FDE8F4"
+  },
+  {
+    "id": 5,
+    "cat": "acrylic",
+    "emoji": "🔤",
+    "name": "Acrylic Name Plate",
+    "desc": "Laser engraved acrylic name plate for desks, doors or walls. Premium finish.",
+    "price": 349,
+    "orig": 499,
+    "iconBg": "#EDE8FE"
+  },
+  {
+    "id": 6,
+    "cat": "acrylic",
+    "emoji": "🪧",
+    "name": "Acrylic Business Sign",
+    "desc": "Custom acrylic board for shops, clinics or offices. Your name + logo.",
+    "price": 799,
+    "orig": 1099,
+    "iconBg": "#FDE8F4"
+  },
+  {
+    "id": 7,
+    "cat": "acrylic",
+    "emoji": "📊",
+    "name": "Acrylic Photo Frame",
+    "desc": "Custom printed acrylic frame with photo or brand image inside.",
+    "price": 449,
+    "orig": 599,
+    "iconBg": "#F0FDFA"
+  },
+  {
+    "id": 8,
+    "cat": "stickers",
+    "emoji": "🏷️",
+    "name": "Custom Sticker Sheet",
+    "desc": "A4 vinyl sticker sheet with your design. Waterproof. 20+ stickers per sheet.",
+    "price": 149,
+    "orig": 199,
+    "iconBg": "#EDE8FE"
+  },
+  {
+    "id": 9,
+    "cat": "stickers",
+    "emoji": "🎁",
+    "name": "Product Label Set (50)",
+    "desc": "Die-cut product labels with your brand. Premium paper or vinyl.",
+    "price": 299,
+    "orig": 399,
+    "iconBg": "#FDE8F4"
+  },
+  {
+    "id": 10,
+    "cat": "kits",
+    "emoji": "🌱",
+    "name": "Solopreneur Startup Kit",
+    "desc": "Logo (2 concepts) + 50 visiting cards + 12 Instagram templates + WhatsApp status pack.",
+    "price": 2999,
+    "orig": 4999,
+    "iconBg": "#EDE8FE"
+  },
+  {
+    "id": 11,
+    "cat": "kits",
+    "emoji": "🚀",
+    "name": "Growth Business Kit",
+    "desc": "Full branding (logo, cards, letterhead) + 1-page website + 12 Instagram templates + pitch deck.",
+    "price": 6999,
+    "orig": 11999,
+    "iconBg": "#FDE8F4"
+  },
+  {
+    "id": 12,
+    "cat": "kits",
+    "emoji": "👑",
+    "name": "Premium Brand Kit",
+    "desc": "Complete brand identity + multi-page website + 30-day social media content + packaging design.",
+    "price": 14999,
+    "orig": 24999,
+    "iconBg": "#EDE8FE"
+  },
+  {
+    "id": 13,
+    "cat": "kits",
+    "emoji": "🏪",
+    "name": "Shop/Restaurant Kit",
+    "desc": "Logo + menu design + signage + visiting cards + social media setup + Google Business profile.",
+    "price": 9999,
+    "orig": 16999,
+    "iconBg": "#F0FDFA"
+  },
+  {
+    "id": 14,
+    "cat": "merchandise",
+    "emoji": "🏅",
+    "name": "Badge Set (10 pieces)",
+    "desc": "Custom pinback badges with your design. Great for events and merchandise.",
+    "price": 299,
+    "orig": 399,
+    "iconBg": "#FDE8F4"
+  },
+  {
+    "id": 15,
+    "cat": "merchandise",
+    "emoji": "📎",
+    "name": "Keyring Set (5 pieces)",
+    "desc": "Custom acrylic or metal keyrings with logo engraving.",
+    "price": 399,
+    "orig": 549,
+    "iconBg": "#EDE8FE"
+  },
+  {
+    "id": 16,
+    "cat": "merchandise",
+    "emoji": "🎽",
+    "name": "Team Uniform Print (10 T-shirts)",
+    "desc": "Sublimation team T-shirts with matching design. Schools, sports teams, events.",
+    "price": 2999,
+    "orig": 3999,
+    "iconBg": "#F0FDFA"
+  }
+]

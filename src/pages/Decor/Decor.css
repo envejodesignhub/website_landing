@@ -1,0 +1,31 @@
+.ga-sm {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+}
+
+.card-p-sm {
+  padding: 18px;
+}
+
+.text-muted {
+  color: var(--muted);
+}
+
+.classroom-features-box {
+  background: linear-gradient(135deg, var(--pink-l), var(--purple-l));
+  border-radius: 20px;
+  padding: 36px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 24px;
+  align-items: center;
+  border: 1.5px solid var(--border);
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 12px;
+}
