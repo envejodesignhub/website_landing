@@ -1,11 +1,17 @@
-export function onRequest(context) {
+export async function onRequest(context) {
   const url = new URL(context.request.url);
+  const pathname = url.pathname;
   
-  // If request is for an asset (has file extension), pass through
-  if (url.pathname.includes('.')) {
+  // If it's a request for a static asset (has extension), serve it directly
+  if (pathname.match(/\.[a-zA-Z0-9]+$/)) {
     return context.next();
   }
   
-  // For all other routes, serve index.html for client-side routing
-  return context.env.ASSETS.fetch(new URL('/index.html', url.origin));
+  // For all other routes (SPA routes), serve index.html
+  const response = await context.env.ASSETS.fetch(new URL('/index.html', url.origin));
+  
+  return new Response(response.body, {
+    status: 200,
+    headers: response.headers
+  });
 }
