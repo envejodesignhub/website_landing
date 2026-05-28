@@ -1,9 +1,13 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import { useCart } from '../../context/CartContext';
 import './Navbar.css';
 import logo from './logo.svg';
 
 const Navbar = () => {
+  const { getCartCount } = useCart();
+  const cartCount = getCartCount();
+
   return (
     <>
       <div id="announce">
@@ -22,10 +26,14 @@ const Navbar = () => {
               <NavLink to="/services" className="nav-link">Services</NavLink>
               <NavLink to="/decor" className="nav-link">Decor & Spaces</NavLink>
               <NavLink to="/b2b" className="nav-link">B2B</NavLink>
-              <a href="https://store.envejo.com" target="_blank" rel="noopener noreferrer" className="nav-link">Shop</a>
+              <NavLink to="/shop" className="nav-link">Shop</NavLink>
             </div>
             
             <div className="fc gap-8" style={{ flexShrink: 0 }}>
+              <NavLink to="/cart" className="cart-icon-btn">
+                🛒
+                {cartCount > 0 && <span className="cart-badge">{cartCount}</span>}
+              </NavLink>
               <button className="btn btn-ghost btn-sm">📞 Free Consult</button>
               <button className="btn btn-gradient btn-sm">Book Now →</button>
             </div>
