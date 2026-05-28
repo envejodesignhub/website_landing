@@ -13,13 +13,22 @@ export function useCart() {
 export function CartProvider({ children }) {
   const [cart, setCart] = useState(() => {
     // Load cart from localStorage on init
-    const savedCart = localStorage.getItem('envejo-cart');
-    return savedCart ? JSON.parse(savedCart) : [];
+    try {
+      const savedCart = localStorage.getItem('envejo-cart');
+      return savedCart ? JSON.parse(savedCart) : [];
+    } catch (error) {
+      console.error('Error loading cart from localStorage:', error);
+      return [];
+    }
   });
 
   // Save cart to localStorage whenever it changes
   useEffect(() => {
-    localStorage.setItem('envejo-cart', JSON.stringify(cart));
+    try {
+      localStorage.setItem('envejo-cart', JSON.stringify(cart));
+    } catch (error) {
+      console.error('Error saving cart to localStorage:', error);
+    }
   }, [cart]);
 
   const addToCart = (product, quantity = 1) => {
