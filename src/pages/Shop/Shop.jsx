@@ -32,12 +32,11 @@ function Shop() {
 
   const categoryLabels = {
     all: 'All Products',
-    kits: 'Branding Kits',
-    templates: 'Templates',
-    prints: 'Print Services',
-    decor: 'Décor & Art',
-    digital: 'Digital Products',
-    sublimation: 'Custom Printing'
+    sublimation: 'Sublimation Prints',
+    merchandise: 'Merchandise',
+    stickers: 'Stickers & Labels',
+    acrylic: 'Acrylic Products',
+    kits: 'Branding Kits'
   };
 
   return (

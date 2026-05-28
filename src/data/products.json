@@ -1,244 +1,65 @@
 [
   {
     "id": 1,
-    "category": "kits",
-    "name": "Brand Identity Kit",
-    "slug": "brand-identity-kit",
-    "price": 2999,
-    "originalPrice": 4999,
-    "emoji": "🎨",
-    "image": "https://images.unsplash.com/photo-1626785774625-0b1c2c4eab67?w=600&h=600&fit=crop",
+    "category": "sublimation",
+    "name": "Custom Printed Mousepad",
+    "slug": "custom-printed-mousepad",
+    "price": 249,
+    "originalPrice": 349,
+    "emoji": "🖱️",
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&h=600&fit=crop",
     "images": [
-      "https://images.unsplash.com/photo-1626785774625-0b1c2c4eab67?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=800&h=800&fit=crop"
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=800&h=800&fit=crop"
     ],
     "rating": 4.8,
-    "reviews": 124,
+    "reviews": 234,
     "inStock": true,
     "featured": true,
     "badge": "Best Seller",
-    "shortDesc": "Logo (2 concepts) + 50 visiting cards + 12 Instagram templates + WhatsApp status pack",
-    "description": "Transform your business identity with our comprehensive Brand Identity Kit. This package includes professional logo design with 2 concepts, 50 premium visiting cards, 12 Instagram templates, and WhatsApp status graphics. Perfect for startups and small businesses looking to establish a professional brand presence.",
+    "shortDesc": "Full-print A4/A3 mousepad with premium rubber base and anti-slip grip",
+    "description": "High-quality custom printed mousepad with vibrant full-color printing. Features premium rubber base for stability and smooth tracking surface. Perfect for gaming, office work, or as promotional merchandise. Waterproof and easy to clean.",
     "features": [
-      "2 professional logo concepts",
-      "50 premium visiting cards",
-      "12 Instagram post templates",
-      "WhatsApp status graphics pack",
-      "Brand color palette",
-      "Free revisions included"
+      "Full-color custom printing",
+      "A4 (210x297mm) or A3 size available",
+      "Premium anti-slip rubber base",
+      "Smooth tracking surface",
+      "Waterproof and easy to clean",
+      "High-resolution print quality"
     ],
-    "iconBg": "#FDE8F4"
+    "iconBg": "#F0FDFA"
   },
   {
     "id": 2,
-    "category": "prints",
-    "name": "Premium Business Card Pack",
-    "slug": "premium-business-card-pack",
-    "price": 899,
-    "originalPrice": 1499,
-    "emoji": "💼",
-    "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=600&fit=crop",
+    "category": "merchandise",
+    "name": "Custom Badge Set (10 pieces)",
+    "slug": "custom-badge-set",
+    "price": 299,
+    "originalPrice": 399,
+    "emoji": "🏅",
+    "image": "https://images.unsplash.com/photo-1608613304899-ea8098577e38?w=600&h=600&fit=crop",
     "images": [
-      "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=800&fit=crop"
+      "https://images.unsplash.com/photo-1608613304899-ea8098577e38?w=800&h=800&fit=crop"
     ],
     "rating": 4.9,
-    "reviews": 87,
-    "inStock": true,
-    "featured": true,
-    "badge": "Trending",
-    "shortDesc": "500 premium quality business cards with custom design",
-    "description": "Make a lasting impression with our premium business cards. Printed on 400 GSM matte finish cardstock with rounded corners. Includes professional design customization to match your brand perfectly.",
-    "features": [
-      "500 business cards",
-      "400 GSM premium cardstock",
-      "Matte or glossy finish",
-      "Rounded corner option",
-      "Custom design included",
-      "Free delivery in 5-7 days"
-    ],
-    "iconBg": "#EDE8FE"
-  },
-  {
-    "id": 3,
-    "category": "templates",
-    "name": "Social Media Design Bundle",
-    "slug": "social-media-design-bundle",
-    "price": 1499,
-    "originalPrice": 2999,
-    "emoji": "📱",
-    "image": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=600&h=600&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&h=800&fit=crop"
-    ],
-    "rating": 4.7,
-    "reviews": 203,
+    "reviews": 156,
     "inStock": true,
     "featured": true,
     "badge": "Popular",
-    "shortDesc": "200+ ready-to-use social media templates for Instagram, Facebook & LinkedIn",
-    "description": "Elevate your social media game with 200+ professionally designed templates. Fully customizable in Canva. Perfect for businesses, influencers, and content creators.",
+    "shortDesc": "Custom pinback badges with your design - perfect for events, teams, and branding",
+    "description": "Professional custom badges with your logo or design. Available in multiple sizes with safety pin or magnet backing. Perfect for events, team building, promotional campaigns, or merchandise. High-quality metal with durable print finish.",
     "features": [
-      "200+ social media templates",
-      "Instagram posts, stories & reels",
-      "Facebook and LinkedIn formats",
-      "Editable in Canva",
-      "Consistent brand aesthetic",
-      "Monthly template updates"
-    ],
-    "iconBg": "#F0FDFA"
-  },
-  {
-    "id": 4,
-    "category": "decor",
-    "name": "Classroom Wall Art Set",
-    "slug": "classroom-wall-art-set",
-    "price": 3499,
-    "originalPrice": null,
-    "emoji": "🎨",
-    "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&h=600&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1588072432836-e10032774350?w=800&h=800&fit=crop"
-    ],
-    "rating": 5.0,
-    "reviews": 45,
-    "inStock": true,
-    "featured": false,
-    "badge": null,
-    "shortDesc": "Educational wall art bundle for preschool and primary classrooms",
-    "description": "Transform your classroom with our vibrant educational wall art set. Includes alphabet posters, number charts, shapes, colors, and motivational quotes.",
-    "features": [
-      "12-piece wall art set",
-      "A3 size premium prints",
-      "UV-resistant lamination",
-      "Educational themes",
-      "Bright, engaging colors",
-      "Easy to hang"
+      "10 custom badges per set",
+      "Multiple sizes: 25mm, 37mm, 58mm",
+      "Safety pin or magnet backing",
+      "Full-color printing",
+      "Durable metal construction",
+      "Fast 3-day production"
     ],
     "iconBg": "#FDE8F4"
   },
   {
-    "id": 5,
-    "category": "digital",
-    "name": "Website Template - Modern Portfolio",
-    "slug": "website-template-modern-portfolio",
-    "price": 1999,
-    "originalPrice": 3499,
-    "emoji": "💻",
-    "image": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=600&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=800&fit=crop"
-    ],
-    "rating": 4.6,
-    "reviews": 98,
-    "inStock": true,
-    "featured": false,
-    "badge": "New",
-    "shortDesc": "Fully responsive portfolio website template for creatives and agencies",
-    "description": "Launch your portfolio website in minutes with this modern, fully responsive template. Built with React. Perfect for designers, photographers, developers, and creative agencies.",
-    "features": [
-      "Fully responsive design",
-      "React based template",
-      "Portfolio gallery component",
-      "Contact form integration",
-      "Documentation included",
-      "6 months support"
-    ],
-    "iconBg": "#EDE8FE"
-  },
-  {
-    "id": 6,
-    "category": "prints",
-    "name": "Marketing Flyer Design",
-    "slug": "marketing-flyer-design",
-    "price": 599,
-    "originalPrice": 999,
-    "emoji": "📄",
-    "image": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=600&h=600&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=800&h=800&fit=crop"
-    ],
-    "rating": 4.5,
-    "reviews": 67,
-    "inStock": true,
-    "featured": false,
-    "badge": null,
-    "shortDesc": "A4 custom flyer design and print for events, promotions, and announcements",
-    "description": "Professional A4 flyer design and print service. Perfect for events, product launches, special promotions, and business announcements. Includes one custom design revision.",
-    "features": [
-      "Custom A4 flyer design",
-      "1 design revision included",
-      "High-quality 150 GSM print",
-      "100 copies included",
-      "Fast 3-day delivery",
-      "Print-ready PDF provided"
-    ],
-    "iconBg": "#F0FDFA"
-  },
-  {
-    "id": 7,
-    "category": "templates",
-    "name": "Presentation Template Pack",
-    "slug": "presentation-template-pack",
-    "price": 799,
-    "originalPrice": 1499,
-    "emoji": "📊",
-    "image": "https://images.unsplash.com/photo-1573167243872-43c6433b9d40?w=600&h=600&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1573167243872-43c6433b9d40?w=800&h=800&fit=crop"
-    ],
-    "rating": 4.8,
-    "reviews": 156,
-    "inStock": true,
-    "featured": false,
-    "badge": null,
-    "shortDesc": "50+ PowerPoint and Google Slides templates for professional presentations",
-    "description": "Create stunning presentations with our professionally designed template pack. Includes 50+ unique slide layouts with modern design elements and easy customization.",
-    "features": [
-      "50+ slide templates",
-      "PowerPoint & Google Slides",
-      "Infographic elements",
-      "Icon library included",
-      "Drag-and-drop editing",
-      "Free font links provided"
-    ],
-    "iconBg": "#FDE8F4"
-  },
-  {
-    "id": 8,
-    "category": "decor",
-    "name": "Motivational Poster Collection",
-    "slug": "motivational-poster-collection",
-    "price": 1299,
-    "originalPrice": null,
-    "emoji": "✨",
-    "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&h=600&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&h=800&fit=crop"
-    ],
-    "rating": 4.9,
-    "reviews": 89,
-    "inStock": true,
-    "featured": false,
-    "badge": null,
-    "shortDesc": "Set of 6 inspirational posters for office, classroom, or home",
-    "description": "Inspire and motivate with our beautifully designed poster collection. Features uplifting quotes and modern typography. Perfect for offices, classrooms, and creative spaces.",
-    "features": [
-      "6 motivational posters",
-      "A2 size (420mm x 594mm)",
-      "Premium 250 GSM paper",
-      "Modern typography design",
-      "Positive affirmations",
-      "Framing-ready"
-    ],
-    "iconBg": "#EDE8FE"
-  },
-  {
-    "id": 9,
+    "id": 3,
     "category": "sublimation",
     "name": "Custom Printed Mug",
     "slug": "custom-printed-mug",
@@ -250,82 +71,228 @@
       "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=800&h=800&fit=crop"
     ],
     "rating": 4.7,
-    "reviews": 112,
+    "reviews": 189,
     "inStock": true,
-    "featured": false,
-    "badge": null,
-    "shortDesc": "11oz ceramic with your logo, design or message. Perfect gift or merchandise",
-    "description": "Custom printed ceramic mug with your design. Perfect for gifts, corporate merchandise, or promotional items. High-quality sublimation printing ensures vibrant colors that never fade.",
+    "featured": true,
+    "badge": "Trending",
+    "shortDesc": "11oz ceramic mug with your custom design - perfect gift or corporate merchandise",
+    "description": "Premium ceramic coffee mug with vibrant sublimation printing. Dishwasher and microwave safe. Perfect for personal gifts, corporate giveaways, or event merchandise. Colors never fade.",
     "features": [
-      "11oz ceramic mug",
+      "11oz capacity ceramic mug",
       "Full-color sublimation print",
       "Dishwasher safe",
       "Microwave safe",
-      "Vibrant, fade-resistant colors",
+      "Fade-resistant colors",
       "Gift box packaging available"
+    ],
+    "iconBg": "#EDE8FE"
+  },
+  {
+    "id": 4,
+    "category": "stickers",
+    "name": "Custom Vinyl Sticker Sheet",
+    "slug": "custom-vinyl-sticker-sheet",
+    "price": 149,
+    "originalPrice": 199,
+    "emoji": "🏷️",
+    "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=600&h=600&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&h=800&fit=crop"
+    ],
+    "rating": 4.8,
+    "reviews": 278,
+    "inStock": true,
+    "featured": false,
+    "badge": null,
+    "shortDesc": "A4 waterproof vinyl sticker sheet with 20+ custom stickers",
+    "description": "High-quality waterproof vinyl sticker sheet with your custom designs. Perfect for laptops, water bottles, phone cases, and more. UV-resistant and long-lasting.",
+    "features": [
+      "A4 size sheet (210x297mm)",
+      "20+ stickers per sheet",
+      "Waterproof vinyl material",
+      "UV-resistant printing",
+      "Kiss-cut for easy peeling",
+      "Indoor and outdoor use"
     ],
     "iconBg": "#F0FDFA"
   },
   {
-    "id": 10,
-    "category": "prints",
-    "name": "Custom Banner Printing",
-    "slug": "custom-banner-printing",
-    "price": 2499,
-    "originalPrice": null,
-    "emoji": "🎯",
-    "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&h=600&fit=crop",
+    "id": 5,
+    "category": "sublimation",
+    "name": "Custom T-Shirt Print",
+    "slug": "custom-tshirt-print",
+    "price": 399,
+    "originalPrice": 549,
+    "emoji": "👕",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&h=600&fit=crop",
     "images": [
-      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=800&fit=crop"
-    ],
-    "rating": 4.8,
-    "reviews": 73,
-    "inStock": true,
-    "featured": false,
-    "badge": null,
-    "shortDesc": "6ft x 3ft custom vinyl banner for events, shops, and promotions",
-    "description": "High-quality vinyl banner printing with vibrant colors and weather-resistant material. Perfect for outdoor events, shop signage, and promotional displays.",
-    "features": [
-      "6ft x 3ft banner",
-      "Weather-resistant vinyl",
-      "Full-color printing",
-      "Grommets for hanging",
-      "Custom design included",
-      "Fast 4-day production"
-    ],
-    "iconBg": "#FDE8F4"
-  },
-  {
-    "id": 11,
-    "category": "templates",
-    "name": "Instagram Reel Templates",
-    "slug": "instagram-reel-templates",
-    "price": 699,
-    "originalPrice": 1299,
-    "emoji": "🎬",
-    "image": "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?w=600&h=600&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?w=800&h=800&fit=crop"
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&h=800&fit=crop"
     ],
     "rating": 4.6,
     "reviews": 145,
     "inStock": true,
     "featured": false,
-    "badge": "Trending",
-    "shortDesc": "40+ animated Instagram Reel templates for Canva",
-    "description": "Create scroll-stopping reels with our animated template collection. Includes trendy transitions, text animations, and motion graphics. Easy to customize in Canva.",
+    "badge": null,
+    "shortDesc": "Full sublimation print on polyester - vibrant colors that never fade",
+    "description": "Custom printed t-shirt with full sublimation printing on premium polyester fabric. Available in multiple sizes. Perfect for team uniforms, events, or promotional merchandise.",
     "features": [
-      "40+ animated templates",
-      "Canva format",
-      "Trendy transitions",
-      "Text animations included",
-      "9:16 vertical format",
-      "Tutorial videos included"
+      "Full sublimation printing",
+      "Premium polyester fabric",
+      "Sizes: S, M, L, XL, XXL",
+      "Fade-resistant colors",
+      "Comfortable fit",
+      "Fast 5-day production"
+    ],
+    "iconBg": "#FDE8F4"
+  },
+  {
+    "id": 6,
+    "category": "acrylic",
+    "name": "Acrylic Name Plate",
+    "slug": "acrylic-name-plate",
+    "price": 349,
+    "originalPrice": 499,
+    "emoji": "🔤",
+    "image": "https://images.unsplash.com/photo-1600494448655-047f623d6d4b?w=600&h=600&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1600494448655-047f623d6d4b?w=800&h=800&fit=crop"
+    ],
+    "rating": 5.0,
+    "reviews": 92,
+    "inStock": true,
+    "featured": false,
+    "badge": null,
+    "shortDesc": "Laser engraved acrylic name plate for desks, doors, or walls",
+    "description": "Premium laser-engraved acrylic name plate with professional finish. Perfect for office desks, cabin doors, or reception areas. Available in clear, frosted, or colored acrylic.",
+    "features": [
+      "Laser engraved precision",
+      "Multiple acrylic colors",
+      "Custom size options",
+      "Easy wall/desk mounting",
+      "Professional finish",
+      "Design preview included"
     ],
     "iconBg": "#EDE8FE"
   },
   {
-    "id": 12,
+    "id": 7,
+    "category": "stickers",
+    "name": "Die-Cut Product Labels (50 pcs)",
+    "slug": "die-cut-product-labels",
+    "price": 299,
+    "originalPrice": 399,
+    "emoji": "🎁",
+    "image": "https://images.unsplash.com/photo-1611162618479-ee3d24aaef0b?w=600&h=600&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1611162618479-ee3d24aaef0b?w=800&h=800&fit=crop"
+    ],
+    "rating": 4.7,
+    "reviews": 112,
+    "inStock": true,
+    "featured": false,
+    "badge": null,
+    "shortDesc": "Custom die-cut labels for products - premium paper or vinyl finish",
+    "description": "Professional die-cut product labels with your brand design. Available in glossy paper or waterproof vinyl. Perfect for packaging, product branding, and gift items.",
+    "features": [
+      "50 custom die-cut labels",
+      "Paper or vinyl material",
+      "Any shape/size up to 100mm",
+      "Full-color printing",
+      "Strong adhesive backing",
+      "Bulk discount available"
+    ],
+    "iconBg": "#F0FDFA"
+  },
+  {
+    "id": 8,
+    "category": "sublimation",
+    "name": "Photo Panel Print",
+    "slug": "photo-panel-print",
+    "price": 499,
+    "originalPrice": 699,
+    "emoji": "🖼️",
+    "image": "https://images.unsplash.com/photo-1513519245088-0e12902e35ca?w=600&h=600&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1513519245088-0e12902e35ca?w=800&h=800&fit=crop"
+    ],
+    "rating": 4.9,
+    "reviews": 87,
+    "inStock": true,
+    "featured": false,
+    "badge": null,
+    "shortDesc": "HD print on hardboard - ready to hang for portraits and brand walls",
+    "description": "High-definition photo print on durable hardboard panel. UV-resistant coating ensures long-lasting colors. Comes ready to hang with mounting hardware included.",
+    "features": [
+      "HD sublimation printing",
+      "Durable hardboard panel",
+      "UV-resistant coating",
+      "Multiple size options",
+      "Ready to hang hardware",
+      "Suitable for indoor/outdoor"
+    ],
+    "iconBg": "#FDE8F4"
+  },
+  {
+    "id": 9,
+    "category": "merchandise",
+    "name": "Custom Keyring Set (5 pieces)",
+    "slug": "custom-keyring-set",
+    "price": 399,
+    "originalPrice": 549,
+    "emoji": "📎",
+    "image": "https://images.unsplash.com/photo-1582719366897-d53c6451e0bb?w=600&h=600&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1582719366897-d53c6451e0bb?w=800&h=800&fit=crop"
+    ],
+    "rating": 4.6,
+    "reviews": 73,
+    "inStock": true,
+    "featured": false,
+    "badge": null,
+    "shortDesc": "Custom acrylic or metal keyrings with logo engraving",
+    "description": "Personalized keyrings with your logo or design. Available in acrylic or metal finish. Perfect for corporate gifts, event giveaways, or merchandise.",
+    "features": [
+      "5 custom keyrings per set",
+      "Acrylic or metal options",
+      "Full-color or engraved",
+      "Durable construction",
+      "Multiple shapes available",
+      "Bulk pricing available"
+    ],
+    "iconBg": "#EDE8FE"
+  },
+  {
+    "id": 10,
+    "category": "kits",
+    "name": "Solopreneur Startup Kit",
+    "slug": "solopreneur-startup-kit",
+    "price": 2999,
+    "originalPrice": 4999,
+    "emoji": "🌱",
+    "image": "https://images.unsplash.com/photo-1626785774625-0b1c2c4eab67?w=600&h=600&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1626785774625-0b1c2c4eab67?w=800&h=800&fit=crop",
+      "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=800&fit=crop"
+    ],
+    "rating": 4.8,
+    "reviews": 124,
+    "inStock": true,
+    "featured": true,
+    "badge": "Best Value",
+    "shortDesc": "Logo (2 concepts) + 50 visiting cards + 12 Instagram templates + WhatsApp graphics",
+    "description": "Complete branding starter kit for solopreneurs and freelancers. Includes professional logo design, business cards, and ready-to-use social media templates to kickstart your brand.",
+    "features": [
+      "2 professional logo concepts",
+      "50 premium business cards",
+      "12 Instagram post templates",
+      "WhatsApp status graphics",
+      "Brand color palette guide",
+      "2 rounds of revisions"
+    ],
+    "iconBg": "#F0FDFA"
+  },
+  {
+    "id": 11,
     "category": "kits",
     "name": "Growth Business Kit",
     "slug": "growth-business-kit",
@@ -341,16 +308,45 @@
     "inStock": true,
     "featured": true,
     "badge": "Premium",
-    "shortDesc": "Full branding + 1-page website + 12 Instagram templates + pitch deck",
-    "description": "Complete business package for growing companies. Includes full branding (logo, business cards, letterhead), a professional 1-page website, 12 Instagram templates, and a custom pitch deck.",
+    "shortDesc": "Full branding + 1-page website + social media templates + pitch deck",
+    "description": "Complete business growth package with professional branding, website, social media presence, and investor-ready pitch deck. Everything you need to scale your business.",
     "features": [
       "Full brand identity design",
       "Professional 1-page website",
-      "12 Instagram post templates",
+      "12 Instagram templates",
       "Custom pitch deck (10 slides)",
-      "Business card & letterhead design",
+      "Business cards + letterhead",
       "3 months support"
     ],
-    "iconBg": "#F0FDFA"
+    "iconBg": "#FDE8F4"
+  },
+  {
+    "id": 12,
+    "category": "merchandise",
+    "name": "Team T-Shirt Bundle (10 shirts)",
+    "slug": "team-tshirt-bundle",
+    "price": 2999,
+    "originalPrice": 3999,
+    "emoji": "🎽",
+    "image": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&h=600&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=800&h=800&fit=crop"
+    ],
+    "rating": 4.8,
+    "reviews": 95,
+    "inStock": true,
+    "featured": false,
+    "badge": null,
+    "shortDesc": "Sublimation team t-shirts with matching design for schools, sports, events",
+    "description": "Bulk t-shirt printing for teams and events. High-quality sublimation printing with vibrant colors. Perfect for schools, sports teams, corporate events, and promotional campaigns.",
+    "features": [
+      "10 custom printed t-shirts",
+      "Full sublimation printing",
+      "Premium polyester fabric",
+      "Size mix: S to XXL",
+      "Matching team design",
+      "Bulk discount pricing"
+    ],
+    "iconBg": "#EDE8FE"
   }
 ]
