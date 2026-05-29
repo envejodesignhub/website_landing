@@ -71,3 +71,66 @@
   color: var(--purple);
   margin-top: 12px;
 }
+
+/* ═══════════════════ RESPONSIVE ═══════════════════ */
+@media (max-width: 768px) {
+  .service-card {
+    padding: 24px;
+  }
+
+  .service-icon-box {
+    width: 48px;
+    height: 48px;
+    font-size: 24px;
+    margin-bottom: 14px;
+  }
+
+  .service-title {
+    font-size: 16px;
+    margin-bottom: 7px;
+  }
+
+  .service-desc {
+    font-size: 12.5px;
+    margin-bottom: 12px;
+  }
+
+  .service-tag {
+    font-size: 9.5px;
+    padding: 2px 8px;
+  }
+
+  .service-price {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-card {
+    padding: 20px;
+  }
+
+  .service-icon-box {
+    width: 44px;
+    height: 44px;
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+
+  .service-title {
+    font-size: 15px;
+  }
+
+  .service-desc {
+    font-size: 12px;
+  }
+
+  .service-tag {
+    font-size: 9px;
+  }
+
+  .service-price {
+    font-size: 14px;
+  }
+}

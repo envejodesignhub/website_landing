@@ -88,7 +88,7 @@ const Services = () => {
       <section className="section-sm bg-gradient">
         <div className="container">
           <div className="cta-box" style={{ padding: '48px 40px' }}>
-            <div style={{ position: 'relative', zIndex: 1, display: 'grid', gridTemplateColumns: '1fr auto', gap: '24px', alignItems: 'center', textAlign: 'left' }}>
+            <div className="b2b-cta-grid" style={{ position: 'relative', zIndex: 1, display: 'grid', gridTemplateColumns: '1fr auto', gap: '24px', alignItems: 'center', textAlign: 'left' }}>
               <div>
                 <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: '28px', fontWeight: 900, color: '#fff', marginBottom: '10px' }}>
                   Need Bulk or Corporate Services?
