@@ -98,6 +98,76 @@
   letter-spacing: .5px;
 }
 
+/* ═══════════════════ RESPONSIVE ═══════════════════ */
+@media (max-width: 1024px) {
+  .b2b-hero {
+    padding: 64px 0;
+  }
+
+  .b2b-hero-title {
+    font-size: clamp(32px, 5vw, 48px);
+  }
+
+  .website-section {
+    padding: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .b2b-hero {
+    padding: 48px 0;
+  }
+
+  .b2b-hero-title {
+    font-size: clamp(28px, 6vw, 40px);
+    margin-bottom: 14px;
+  }
+
+  .b2b-hero-desc {
+    font-size: 15px;
+    margin-bottom: 32px;
+  }
+
+  .website-section {
+    padding: 28px;
+    border-radius: 18px;
+  }
+
+  .plan-card {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .b2b-hero {
+    padding: 40px 0;
+  }
+
+  .b2b-hero-title {
+    font-size: clamp(24px, 7vw, 36px);
+    letter-spacing: -1px;
+  }
+
+  .b2b-hero-desc {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 28px;
+  }
+
+  .website-section {
+    padding: 24px;
+  }
+
+  .plan-card {
+    padding: 20px;
+  }
+
+  .plan-pop-badge {
+    font-size: 10px;
+    padding: 3px 14px;
+  }
+}
+
 .plan-name {
   font-family: 'Space Grotesk', sans-serif;
   font-size: 13px;

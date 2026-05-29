@@ -1,9 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import './Navbar.css';
 import logo from './logo.svg';
 
 const Navbar = () => {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen);
+  };
+
+  const closeMobileMenu = () => {
+    setMobileMenuOpen(false);
+  };
+
   return (
     <>
       <div id="announce">
@@ -12,22 +22,32 @@ const Navbar = () => {
       
       <nav id="navbar">
         <div className="nav-inner">
-          <div className="fc" style={{ padding: '12px 0', width: '100%' }}>
-            <Link to="/" className="nav-logo-mark" style={{ marginRight: '16px', flexShrink: 0 }}>
+          <div className="nav-container">
+            <Link to="/" className="nav-logo-mark">
               <img src={logo} alt="Envejo" style={{ width: '120px', height: '40px' }} />
             </Link>
             
-            <div className="fc" style={{ flex: 1, justifyContent: 'center', gap: '0' }}>
-              <NavLink to="/" end className="nav-link">Home</NavLink>
-              <NavLink to="/services" className="nav-link">Services</NavLink>
-              <NavLink to="/decor" className="nav-link">Decor & Spaces</NavLink>
-              <NavLink to="/b2b" className="nav-link">B2B</NavLink>
-              <a href="https://store.envejo.com" target="_blank" rel="noopener noreferrer" className="nav-link">Shop</a>
+            <div className={`nav-links ${mobileMenuOpen ? 'mobile-menu-open' : ''}`}>
+              <NavLink to="/" end className="nav-link" onClick={closeMobileMenu}>Home</NavLink>
+              <NavLink to="/services" className="nav-link" onClick={closeMobileMenu}>Services</NavLink>
+              <NavLink to="/decor" className="nav-link" onClick={closeMobileMenu}>Decor & Spaces</NavLink>
+              <NavLink to="/b2b" className="nav-link" onClick={closeMobileMenu}>B2B</NavLink>
+              <a href="https://store.envejo.com" target="_blank" rel="noopener noreferrer" className="nav-link" onClick={closeMobileMenu}>Shop</a>
+              
+              <div className="nav-btns-mobile">
+                <button className="btn btn-ghost btn-sm">📞 Free Consult</button>
+                <button className="btn btn-gradient btn-sm">Book Now →</button>
+              </div>
             </div>
             
-            <div className="fc gap-8" style={{ flexShrink: 0 }}>
-              <button className="btn btn-ghost btn-sm">📞 Free Consult</button>
-              <button className="btn btn-gradient btn-sm">Book Now →</button>
+            <div className="nav-right">
+              <button className="mobile-menu-toggle" onClick={toggleMobileMenu} aria-label="Toggle menu">
+                <span className={`hamburger ${mobileMenuOpen ? 'open' : ''}`}>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </span>
+              </button>
             </div>
           </div>
         </div>

@@ -397,3 +397,167 @@ textarea:focus {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+/* ═══════════════════ RESPONSIVE ═══════════════════ */
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 24px;
+  }
+
+  .g2 {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .g3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .g4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  /* Typography */
+  .display {
+    font-size: 36px;
+    letter-spacing: -1px;
+  }
+
+  .heading {
+    font-size: 28px !important;
+    letter-spacing: -0.5px;
+  }
+
+  .subhead {
+    font-size: 15px;
+  }
+
+  .body-lg {
+    font-size: 15px;
+  }
+
+  .body {
+    font-size: 13px;
+  }
+
+  /* Layout */
+  .container {
+    padding: 0 20px;
+  }
+
+  .container-sm {
+    padding: 0 20px;
+  }
+
+  .section {
+    padding: 56px 0;
+  }
+
+  .section-sm {
+    padding: 36px 0;
+  }
+
+  /* Grids */
+  .ga {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .ga-sm {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .g2 {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .g3 {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .g4 {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  /* Flexbox */
+  .fb {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  /* Buttons */
+  .btn {
+    font-size: 13px;
+    padding: 11px 22px;
+  }
+
+  .btn-sm {
+    padding: 8px 14px;
+    font-size: 11.5px;
+  }
+
+  .btn-lg {
+    padding: 13px 28px;
+    font-size: 14px;
+  }
+
+  /* Badges */
+  .badge {
+    font-size: 10px;
+    padding: 4px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Typography */
+  .display {
+    font-size: 32px;
+  }
+
+  .heading {
+    font-size: 24px !important;
+  }
+
+  /* Layout */
+  .container {
+    padding: 0 16px;
+  }
+
+  .section {
+    padding: 48px 0;
+  }
+
+  .section-sm {
+    padding: 32px 0;
+  }
+
+  /* Buttons */
+  .btn {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .btn-sm {
+    font-size: 11px;
+  }
+
+  .btn-lg {
+    font-size: 13px;
+  }
+
+  /* Utility */
+  .gap-24 {
+    gap: 16px;
+  }
+
+  .gap-32 {
+    gap: 20px;
+  }
+}

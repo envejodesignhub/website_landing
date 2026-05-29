@@ -27,3 +27,36 @@
 .section-sm {
   padding: 56px 0;
 }
+
+/* ═══════════════════ RESPONSIVE ═══════════════════ */
+@media (max-width: 768px) {
+  .filter-chips {
+    gap: 6px;
+  }
+
+  .chip {
+    font-size: 12px;
+    padding: 6px 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .chip {
+    font-size: 11px;
+    padding: 5px 12px;
+  }
+
+  .b2b-cta-grid {
+    grid-template-columns: 1fr !important;
+    text-align: center !important;
+    gap: 20px !important;
+  }
+
+  .b2b-cta-grid a {
+    width: 100%;
+  }
+
+  .b2b-cta-grid button {
+    width: 100%;
+  }
+}
