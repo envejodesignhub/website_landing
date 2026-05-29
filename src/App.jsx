@@ -11,6 +11,8 @@ import Shop from './pages/Shop/Shop';
 import ProductDetail from './pages/ProductDetail/ProductDetail';
 import Cart from './pages/Cart/Cart';
 import Checkout from './pages/Checkout/Checkout';
+import WixShop from './pages/WixShop/WixShop';
+import WixProduct from './pages/WixProduct/WixProduct';
 import './App.css';
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
             <Route path="/shop/:slug" element={<ProductDetail />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/checkout" element={<Checkout />} />
+            <Route path="/wix-shop" element={<WixShop />} />
+            <Route path="/wix-product/:id" element={<WixProduct />} />
           </Routes>
           <Footer />
         </div>

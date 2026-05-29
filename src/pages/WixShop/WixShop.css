@@ -1,0 +1,599 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+/* Wix Shop Page Styles */
+.wix-shop {
+  min-height: 100vh;
+  background: var(--bg);
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* Top Banner */
+.wix-top-banner {
+  background: linear-gradient(90deg, var(--purple), var(--pink));
+  color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.banner-icon {
+  font-size: 16px;
+}
+
+/* Header */
+.wix-header {
+  background: rgba(255, 255, 255, 0.97);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border);
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 20px rgba(123, 47, 247, 0.06);
+}
+
+.wix-header-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.wix-logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: 900;
+  background: linear-gradient(135deg, var(--pink), var(--purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.5px;
+}
+
+.wix-nav {
+  display: flex;
+  gap: 30px;
+  flex: 1;
+  justify-content: center;
+}
+
+.wix-nav-link {
+  color: var(--sec);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.18s;
+  white-space: nowrap;
+  padding: 13px 12px;
+  border-bottom: 2px solid transparent;
+}
+
+.wix-nav-link:hover {
+  color: var(--purple);
+  border-bottom-color: var(--purple);
+}
+
+.wix-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.wix-icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.wix-icon-btn:hover {
+  color: var(--purple);
+  transform: translateY(-1px);
+}
+
+.wix-login-text {
+  font-weight: 400;
+}
+
+.wix-cart-btn {
+  background: var(--purple-l);
+  border: 1.5px solid var(--purple);
+  border-radius: 12px;
+  cursor: pointer;
+  padding: 10px 12px;
+  color: var(--purple);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+  transition: all 0.2s;
+}
+
+.wix-cart-btn:hover {
+  background: var(--purple);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+.wix-cart-count {
+  background: linear-gradient(135deg, var(--pink), var(--purple));
+  color: #ffffff;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+/* Main Content */
+.wix-main {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* Breadcrumb */
+.wix-breadcrumb {
+  padding: 20px 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.wix-breadcrumb a {
+  color: var(--sec);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.wix-breadcrumb a:hover {
+  color: var(--purple);
+}
+
+/* Content Layout */
+.wix-content {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 60px;
+  padding-bottom: 80px;
+}
+
+/* Sidebar */
+.wix-sidebar {
+  padding-top: 20px;
+}
+
+.wix-filter-section {
+  margin-bottom: 40px;
+}
+
+.wix-filter-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+}
+
+.wix-category-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.wix-category-item {
+  background: none;
+  border: none;
+  text-align: left;
+  padding: 8px 0;
+  font-size: 14px;
+  color: var(--sec);
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: 400;
+}
+
+.wix-category-item:hover {
+  color: var(--purple);
+  padding-left: 4px;
+}
+
+.wix-category-item.active {
+  color: var(--purple);
+  font-weight: 600;
+  padding-left: 4px;
+}
+
+/* Price Filter */
+.wix-price-filter {
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+
+.wix-price-label {
+  display: block;
+  font-size: 14px;
+  color: var(--text);
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.wix-price-range {
+  padding: 0;
+}
+
+.wix-range-slider {
+  width: 100%;
+  height: 3px;
+  background: var(--border);
+  outline: none;
+  -webkit-appearance: none;
+  margin-bottom: 10px;
+  border-radius: 2px;
+}
+
+.wix-range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(135deg, var(--pink), var(--purple));
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: var(--shadow);
+}
+
+.wix-range-slider::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(135deg, var(--pink), var(--purple));
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  box-shadow: var(--shadow);
+}
+
+.wix-price-values {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+/* Color Filter */
+.wix-color-filter {
+  border-top: 1px solid var(--border);
+  padding-top: 20px;
+}
+
+.wix-filter-toggle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: var(--text);
+  cursor: pointer;
+  text-align: left;
+  font-weight: 600;
+  padding: 0;
+  transition: color 0.2s;
+}
+
+.wix-filter-toggle:hover {
+  color: var(--purple);
+}
+
+.wix-expand-icon {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.wix-color-options {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Products Area */
+.wix-products-area {
+  padding-top: 20px;
+}
+
+.wix-products-header {
+  margin-bottom: 40px;
+}
+
+.wix-products-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--text);
+  margin-bottom: 20px;
+  letter-spacing: -1px;
+}
+
+.wix-products-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--border);
+}
+
+.wix-product-count {
+  font-size: 14px;
+  color: var(--sec);
+  font-weight: 500;
+}
+
+.wix-sort-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: var(--sec);
+  font-weight: 500;
+}
+
+.wix-sort-select {
+  border: 1px solid var(--border);
+  background: #ffffff;
+  font-size: 14px;
+  color: var(--text);
+  cursor: pointer;
+  outline: none;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: var(--rs);
+  transition: all 0.2s;
+}
+
+.wix-sort-select:hover {
+  border-color: var(--purple);
+}
+
+.wix-sort-select:focus {
+  border-color: var(--purple);
+  box-shadow: 0 0 0 3px var(--purple-l);
+}
+
+.wix-sort-select option {
+  padding: 5px;
+}
+
+/* Products Grid */
+.wix-products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+  padding-top: 30px;
+}
+
+.wix-product-card {
+  background: #ffffff;
+  border-radius: 20px;
+  border: 1.5px solid var(--border);
+  cursor: pointer;
+  transition: all 0.3s;
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  overflow: hidden;
+}
+
+.wix-product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-m);
+  border-color: var(--border-m);
+}
+
+.wix-sale-badge {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background: linear-gradient(135deg, var(--pink), var(--purple));
+  color: #ffffff;
+  padding: 5px 12px;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 20px;
+  z-index: 10;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.wix-product-image {
+  width: 100%;
+  aspect-ratio: 1;
+  overflow: hidden;
+  background: var(--bg);
+  margin-bottom: 15px;
+}
+
+.wix-product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.wix-product-card:hover .wix-product-image img {
+  transform: scale(1.05);
+}
+
+.wix-product-info {
+  padding: 0 5px;
+}
+
+.wix-product-name {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 10px;
+  line-height: 1.4;
+  min-height: 42px;
+}
+
+.wix-product-price {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.wix-original-price {
+  font-size: 14px;
+  color: var(--muted);
+  text-decoration: line-through;
+}
+
+.wix-current-price {
+  font-size: 17px;
+  color: var(--purple);
+  font-weight: 700;
+}
+
+/* Footer */
+.wix-footer {
+  background: #ffffff;
+  border-top: 1px solid var(--border);
+  margin-top: 60px;
+  padding: 60px 40px 30px;
+}
+
+.wix-footer-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.wix-footer-section h4 {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 15px;
+  letter-spacing: 0.3px;
+}
+
+.wix-footer-bottom {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-top: 30px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .wix-nav {
+    display: none;
+  }
+  
+  .wix-content {
+    grid-template-columns: 200px 1fr;
+    gap: 40px;
+  }
+  
+  .wix-products-grid {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wix-header-content {
+    padding: 0 20px;
+  }
+  
+  .wix-main {
+    padding: 0 20px;
+  }
+  
+  .wix-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .wix-sidebar {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 30px;
+  }
+  
+  .wix-category-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .wix-category-item {
+    padding: 8px 15px;
+    border: 1.5px solid var(--border);
+    border-radius: 20px;
+    background: #ffffff;
+  }
+  
+  .wix-category-item:hover,
+  .wix-category-item.active {
+    border-color: var(--purple);
+    background: var(--purple-l);
+    color: var(--purple);
+    padding-left: 15px;
+  }
+  
+  .wix-products-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .wix-footer-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  
+  .wix-login-text {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .wix-products-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+  }
+  
+  .wix-footer-content {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+}

@@ -1,0 +1,590 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+/* Wix Product Detail Page Styles */
+.wix-product-page {
+  min-height: 100vh;
+  background: var(--bg);
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* Main Content */
+.wix-product-main {
+  background: #ffffff;
+  padding: 40px 0 0;
+}
+
+.wix-product-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* Product Display Section */
+.wix-product-display {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  padding-bottom: 80px;
+}
+
+.wix-product-image-section {
+  background: var(--bg);
+  border-radius: 20px;
+  border: 1.5px solid var(--border);
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wix-main-image {
+  max-width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+/* Product Details */
+.wix-product-details {
+  padding-top: 20px;
+}
+
+.wix-product-sku {
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  font-weight: 600;
+}
+
+.wix-product-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--text);
+  margin-bottom: 15px;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+
+.wix-product-price {
+  font-size: 24px;
+  color: var(--purple);
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+/* Quantity Section */
+.wix-quantity-section {
+  margin-bottom: 20px;
+}
+
+.wix-quantity-label {
+  display: block;
+  font-size: 13px;
+  color: var(--text);
+  margin-bottom: 10px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.wix-quantity-control {
+  display: inline-flex;
+  align-items: center;
+  border: 1.5px solid var(--border);
+  background: #ffffff;
+  border-radius: var(--rs);
+  overflow: hidden;
+}
+
+.wix-qty-btn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: #ffffff;
+  cursor: pointer;
+  font-size: 18px;
+  color: var(--purple);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  font-weight: 600;
+}
+
+.wix-qty-btn:hover {
+  background: var(--purple-l);
+  color: var(--purple);
+}
+
+.wix-qty-input {
+  width: 60px;
+  height: 40px;
+  border: none;
+  border-left: 1.5px solid var(--border);
+  border-right: 1.5px solid var(--border);
+  text-align: center;
+  font-size: 14px;
+  outline: none;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.wix-qty-input::-webkit-inner-spin-button,
+.wix-qty-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Action Buttons */
+.wix-add-to-cart-btn {
+  width: 100%;
+  max-width: 400px;
+  height: 50px;
+  background: linear-gradient(135deg, var(--pink), var(--purple));
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-bottom: 15px;
+  letter-spacing: 0.3px;
+}
+
+.wix-add-to-cart-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-m);
+}
+
+.wix-wishlist-btn {
+  width: 50px;
+  height: 50px;
+  border: 1.5px solid var(--border);
+  background: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  transition: all 0.2s;
+  vertical-align: middle;
+  color: var(--purple);
+}
+
+.wix-wishlist-btn:hover {
+  border-color: var(--purple);
+  background: var(--purple-l);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+.wix-buy-now-btn {
+  width: 100%;
+  max-width: 400px;
+  height: 50px;
+  background: var(--text);
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 15px;
+  display: block;
+  letter-spacing: 0.3px;
+}
+
+.wix-buy-now-btn:hover {
+  background: var(--sec);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+/* Product Description */
+.wix-product-description {
+  margin: 30px 0;
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--border);
+}
+
+.wix-product-description p {
+  font-size: 14px;
+  color: var(--sec);
+  line-height: 1.7;
+}
+
+/* Expandable Sections */
+.wix-expandable-sections {
+  margin-top: 30px;
+}
+
+.wix-expandable-item {
+  border-bottom: 1px solid var(--border);
+}
+
+.wix-expandable-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: var(--text);
+  cursor: pointer;
+  text-align: left;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.wix-expandable-header:hover {
+  color: var(--purple);
+}
+
+.wix-expand-icon {
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--purple);
+}
+
+.wix-expandable-content {
+  padding-bottom: 20px;
+  font-size: 14px;
+  color: var(--sec);
+  line-height: 1.7;
+}
+
+/* Related Products Section */
+.wix-related-section {
+  padding: 60px 0;
+  border-top: 1px solid var(--border);
+}
+
+.wix-related-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--text);
+  margin-bottom: 40px;
+  letter-spacing: -1px;
+}
+
+.wix-related-carousel {
+  position: relative;
+  padding: 0 50px;
+}
+
+.wix-carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border: 1.5px solid var(--border);
+  background: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 24px;
+  color: var(--purple);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  transition: all 0.2s;
+}
+
+.wix-carousel-btn:hover {
+  border-color: var(--purple);
+  background: var(--purple-l);
+  transform: translateY(-50%) translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+.wix-carousel-prev {
+  left: 0;
+}
+
+.wix-carousel-next {
+  right: 0;
+}
+
+.wix-related-products {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  overflow: hidden;
+}
+
+.wix-related-card {
+  background: #ffffff;
+  border: 1.5px solid var(--border);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.wix-related-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-m);
+  border-color: var(--border-m);
+}
+
+.wix-related-image {
+  width: 100%;
+  aspect-ratio: 1;
+  overflow: hidden;
+  background: var(--bg);
+}
+
+.wix-related-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.wix-related-card:hover .wix-related-image img {
+  transform: scale(1.05);
+}
+
+.wix-related-info {
+  padding: 15px;
+}
+
+.wix-related-name {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 8px;
+  line-height: 1.4;
+  min-height: 36px;
+}
+
+.wix-related-price {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Help Center Section */
+.wix-help-section {
+  background: linear-gradient(135deg, var(--purple-d), var(--pink-d));
+  color: #ffffff;
+  margin: 60px -40px 0;
+  position: relative;
+}
+
+.wix-help-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  min-height: 400px;
+}
+
+.wix-help-text {
+  padding: 60px 80px;
+}
+
+.wix-help-text h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+
+.wix-help-text p {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 30px;
+  line-height: 1.7;
+}
+
+.wix-help-btn {
+  background: #ffffff;
+  color: var(--purple);
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  letter-spacing: 0.3px;
+}
+
+.wix-help-btn:hover {
+  background: var(--bg);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.wix-help-image {
+  height: 100%;
+  overflow: hidden;
+  background: linear-gradient(135deg, #333, #666);
+}
+
+.wix-help-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.9;
+}
+
+/* Footer Updates for Product Page */
+.wix-footer {
+  background: #ffffff;
+  border-top: 1px solid var(--border);
+  margin-top: 0;
+  padding: 60px 40px 30px;
+}
+
+.wix-footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.wix-footer-section li {
+  margin-bottom: 8px;
+}
+
+.wix-footer-section a {
+  color: var(--sec);
+  text-decoration: none;
+  font-size: 13px;
+  transition: color 0.2s;
+}
+
+.wix-footer-section a:hover {
+  color: var(--purple);
+}
+
+.wix-footer-section p {
+  font-size: 13px;
+  color: var(--sec);
+  line-height: 1.6;
+  margin: 5px 0;
+}
+
+.wix-social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.wix-social-icons a {
+  color: var(--sec);
+  transition: all 0.2s;
+}
+
+.wix-social-icons a:hover {
+  color: var(--purple);
+  transform: translateY(-2px);
+}
+
+/* Payment Methods */
+.wix-payment-methods {
+  max-width: 1400px;
+  margin: 40px auto 0;
+  padding-top: 30px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+}
+
+.wix-payment-methods p {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 20px;
+}
+
+.wix-payment-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.wix-payment-icons img {
+  height: 30px;
+  width: auto;
+}
+
+.wix-payment-placeholder {
+  font-size: 28px;
+  opacity: 0.6;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .wix-product-display {
+    gap: 40px;
+  }
+
+  .wix-related-products {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .wix-product-container {
+    padding: 0 20px;
+  }
+
+  .wix-product-display {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .wix-product-image-section {
+    padding: 20px;
+  }
+
+  .wix-related-products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .wix-help-content {
+    grid-template-columns: 1fr;
+  }
+
+  .wix-help-text {
+    padding: 40px 30px;
+  }
+
+  .wix-help-image {
+    min-height: 300px;
+  }
+
+  .wix-footer-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .wix-related-products {
+    grid-template-columns: 1fr;
+  }
+
+  .wix-footer-content {
+    grid-template-columns: 1fr;
+  }
+
+  .wix-add-to-cart-btn,
+  .wix-buy-now-btn {
+    max-width: 100%;
+  }
+}
